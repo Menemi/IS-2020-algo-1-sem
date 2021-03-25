@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int a, b;
     ifstream fin("aplusbI.txt");
     ofstream fout("aplusbO.txt");
