@@ -7,7 +7,7 @@ using namespace std;
 void qSort(int *a, int l, int r, int k) {
     if (l >= r)
         return;
-    
+
     int f = 0;
     for (int i = l + 1; i <= r; i++) {
         if (a[i] != a[i - 1]) {
